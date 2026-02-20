@@ -13,7 +13,7 @@ import com.javacourse.coursejpa.entities.Product;
 import com.javacourse.coursejpa.services.ProductService;
 
 @RestController
-@RequestMapping(value = "/Products")
+@RequestMapping(value = "/products")
 public class ProductResourse {
 	
 	@Autowired
